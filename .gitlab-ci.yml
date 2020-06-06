@@ -2,7 +2,6 @@ image:
   name: hashicorp/terraform:0.11.11
   entrypoint:  ["/bin/sh", "-c"]
 
-
 stages:
   - build
   - deploy
